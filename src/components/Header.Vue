@@ -1,6 +1,12 @@
-export default {
-  name: 'Header'
-}
+<script>
+  export default {
+    name: 'Header'
+  }
+</script>
 
-<h2>ciao Boolando</h2>
+<template>
+  <header>
+    ciao header
+  </header>
+</template>
 

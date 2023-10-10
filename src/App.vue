@@ -3,11 +3,5 @@
 </script>
 
 <template>
-  <header \>
-  <main \>
-  <footer \>
+  <h2> Ciao boolando</h2>
 </template>
-
-<style scoped>
-
-</style>

@@ -1,11 +1,12 @@
 <script>
-  import clientMenu from '../data/headerMenu'
+  import{clientMenu, iconMenu} from '../data/headerMenu'
 
   export default {
     name: 'Header',
     data() {
       return{
-        clientMenu
+        clientMenu,
+        iconMenu
       }
     }
   }
@@ -19,7 +20,9 @@
       <ul class="menu">
         <li 
         v-for="(client, index) in clientMenu"
-        :key="index"><a href="client.href">{{client.person}}</a></li>
+        :key="index">
+          <a :href="client.href">{{client.person}}</a> 
+        </li>
       </ul>
 
       <!-- logo -->
@@ -27,9 +30,9 @@
 
       <!-- menu right -->
       <ul class="menu">
-        <li><a href="#"><i class="fa-regular fa-user"></i></a></li>
-        <li><a href="#"><i class="fa-regular fa-heart"></i></a></li>
-        <li><a href="#"><i class="fa-solid fa-bag-shopping"></i></a></li>
+        <li v-for="(icon, index) in iconMenu"
+        :key="index"><a :href="icon.href"><i :class="icon.icon"></i></a></li>
+
       </ul>
     </div>
 

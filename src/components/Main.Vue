@@ -33,7 +33,8 @@ import productCard from '../data/productCard'
       
         
           <div class="label">
-            <span class="sale">{{product.discount}}</span>
+            <span class="sale"
+            v-if="(product.discount === null) ? '' : 'hide'">{{product.discount}}</span>
             <span class="eco"
             v-if="(product.sostenibilita === false) ? 'hide' : ''">
             Sostenibilità

@@ -11,8 +11,8 @@
       <div class="product">
 
         <div class="trasp">
-          <img class="model part" src="./img/1.webp" alt="relaxed tee">
-          <img class="model view" src="./img/1b.webp" alt="relaxed tee">
+          <img class="model part" src="/img/1.webp" alt="relaxed tee">
+          <img class="model view" src="/img/1b.webp" alt="relaxed tee">
           <span class="heart">&hearts;</span>
       
         
@@ -38,8 +38,8 @@
       <div class="product">
 
         <div class="trasp">
-          <img class="model part" src="./img/2.webp" alt="relaxed tee">
-          <img class="model view" src="./img/2b.webp" alt="relaxed tee">
+          <img class="model part" src="/img/2.webp" alt="relaxed tee">
+          <img class="model view" src="/img/2b.webp" alt="relaxed tee">
           <span class="heart">&hearts;</span>
         </div>
         
@@ -62,8 +62,8 @@
       <div class="product">
 
         <div class="trasp">
-          <img class="model part" src="./img/3.webp" alt="relaxed tee">
-          <img class="model view" src="./img/3b.webp" alt="relaxed tee">
+          <img class="model part" src="/img/3.webp" alt="relaxed tee">
+          <img class="model view" src="/img/3b.webp" alt="relaxed tee">
           <span class="heart">&hearts;</span>
         </div>
         
@@ -86,8 +86,8 @@
       <div class="product">
 
         <div class="trasp">
-          <img class="model part" src="./img/4.webp" alt="relaxed tee">
-          <img class="model view" src="./img/4b.webp" alt="relaxed tee">
+          <img class="model part" src="/img/4.webp" alt="relaxed tee">
+          <img class="model view" src="/img/4b.webp" alt="relaxed tee">
           <span class="heart">&hearts;</span>
         </div>
         
@@ -112,8 +112,8 @@
       <div class="product">
 
         <div class="trasp">
-          <img class="model part" src="./img/5.webp" alt="relaxed tee">
-          <img class="model view" src="./img/5b.webp" alt="relaxed tee">
+          <img class="model part" src="/img/5.webp" alt="relaxed tee">
+          <img class="model view" src="/img/5b.webp" alt="relaxed tee">
           <span class="heart">&hearts;</span>
         </div> 
 
@@ -131,8 +131,8 @@
       <div class="product">
 
         <div class="trasp">
-          <img class="model part" src="./img/6.webp" alt="relaxed tee">
-          <img class="model view" src="./img/6b.webp" alt="relaxed tee">
+          <img class="model part" src="/img/6.webp" alt="relaxed tee">
+          <img class="model view" src="/img/6b.webp" alt="relaxed tee">
           <span class="heart">&hearts;</span>
         </div>
         

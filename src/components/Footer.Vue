@@ -11,7 +11,7 @@
           <div class="society">
             <h3>Booleando s.r.l</h3>
 
-            <ul class="foot-list">
+            <ul class="foot-list flex">
               <li><a href="#">Inormazioni legali</a></li>
               <li><a href="#">Informativa sulla privacy</a></li>
               <li><a href="#">Diritto di recesso</a></li>
@@ -21,7 +21,7 @@
           <div class="social">
             <span>Trovaci anche su</span>
           
-            <ul class="foot-list">
+            <ul class="foot-list flex">
                 <li>
                   <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
                 </li>

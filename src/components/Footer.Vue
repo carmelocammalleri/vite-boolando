@@ -47,3 +47,8 @@
         </div>
     </footer>
 </template>
+
+<style lang="scss">
+  @use '../scss/footer.scss';
+
+</style>

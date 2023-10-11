@@ -30,6 +30,6 @@
 </template>
 
 <style>
-
+  
 </style>
 

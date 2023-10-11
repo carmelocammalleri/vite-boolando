@@ -6,19 +6,19 @@ footer{
   padding-bottom: 20px;
   border-bottom: 1px solid white;
   color: white;
-}
 
-.foot-list{
-  justify-content: space-between;
-}
+  .foot-list{
+    justify-content: space-between;
 
-.foot-list li{
-  list-style: none;
-  display: inline-block;
-  padding-top: 10px;
-}
+    li{
+      list-style: none;
+      display: inline-block;
+      padding-top: 10px;
 
-.foot-list li a{
-  text-decoration: none;
-  color: white;
+      a{
+        text-decoration: none;
+        color: white;
+      }
+    }
+  }
 }

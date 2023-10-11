@@ -7,17 +7,20 @@ footer{
   border-bottom: 1px solid white;
   color: white;
 
-  .foot-list{
+  .container.flex{
     justify-content: space-between;
-
-    li{
-      list-style: none;
-      display: inline-block;
-      padding-top: 10px;
-
-      a{
-        text-decoration: none;
-        color: white;
+    .foot-list{
+      justify-content: space-between;
+  
+      li{
+        list-style: none;
+        display: inline-block;
+        padding-top: 10px;
+  
+        a{
+          text-decoration: none;
+          color: white;
+        }
       }
     }
   }

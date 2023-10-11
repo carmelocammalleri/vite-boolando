@@ -36,18 +36,22 @@ import productCard from '../data/productCard'
             <span class="sale"
             v-if="(product.discount === null) ? '' : 'hide'">{{product.discount}}</span>
             <span class="eco"
-            v-if="(product.sostenibilita === false) ? 'hide' : ''">
+            v-if="(product.sostenibilita === false) ? '' : 'hide'">
             Sostenibilità
             </span>
           </div>
         </div>
 
         <div class="info">
-          <span class="brand">Levi's</span>
+          <span class="brand">
+            {{product.brand}}
+          </span>
           <h3
-          class="title">Relaxed fit tee unisex </h3>
-          <span class="price-special">14,99&euro;</span>
-          <span class="price">29,99 &euro;</span>
+          class="title">{{product.model}} </h3>
+          <span class="price-special">{{product.lastPrice}} &euro;</span>
+          <span class="price"
+          v-if="(product.fullPrice=== null)? '' : 'hide'">
+          {{product.fullPrice}} &euro;</span>
         </div>       
       </div>
 

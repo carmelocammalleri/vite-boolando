@@ -18,6 +18,6 @@
   <Footer />
 </template>
 
-<style>
-
+<style lang="scss">
+  @use './scss/general/general.scss'
 </style>

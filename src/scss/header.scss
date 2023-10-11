@@ -1,0 +1,41 @@
+/* header */
+
+header{
+  background-color: #FF6900 ;
+  position: fixed;
+  z-index: 999;
+  width: 100%;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.228);
+
+    .container.flex{
+      justify-content: space-between;
+      align-items: center;
+      padding: 20px;
+
+      .menu li{
+        list-style: none;
+        display: inline;
+
+          a{
+            text-decoration: none;
+            color: white;
+          }
+
+        &:first-child li a{
+          margin-right: 10px ;
+        }  
+      }
+    }
+    
+    .container .menu:last-child li a{
+      margin-left: 10px ;
+    }
+    
+    #logo{
+      width: 100px;
+    }
+
+
+
+
+}

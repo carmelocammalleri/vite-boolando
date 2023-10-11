@@ -156,7 +156,7 @@
 
 </template>
 
-<style>
-
+<style lang="scss">
+  @use '../scss/main.scss';
 </style>
 

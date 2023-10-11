@@ -11,20 +11,19 @@ header{
       justify-content: space-between;
       align-items: center;
       padding: 20px;
-
+      
       .menu li{
         list-style: none;
         display: inline;
-
-          a{
-            text-decoration: none;
-            color: white;
-          }
-
-        &:first-child li a{
+        
+        a{
+          text-decoration: none;
+          color: white;
+        } 
+      }  
+        :first-child li a{
           margin-right: 10px ;
-        }  
-      }
+        }
     }
     
     .container .menu:last-child li a{

@@ -33,5 +33,3 @@
 <style lang="scss">
   @use '../scss/header.scss';
 </style>
-
-

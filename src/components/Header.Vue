@@ -1,6 +1,13 @@
 <script>
+  import clientMenu from '../data/headerMenu'
+
   export default {
-    name: 'Header'
+    name: 'Header',
+    data() {
+      return{
+        clientMenu
+      }
+    }
   }
 </script>
 
@@ -10,9 +17,9 @@
     <div class="container flex">
       <!-- menu left-->
       <ul class="menu">
-        <li><a href="#">Donna</a></li>
-        <li><a href="#">Uomo</a></li>
-        <li><a href="#">Bambini</a></li>
+        <li 
+        v-for="(client, index) in clientMenu"
+        :key="index"><a href="client.href">{{client.person}}</a></li>
       </ul>
 
       <!-- logo -->
@@ -30,6 +37,7 @@
 </template>
 
 
-<style lang="scss">
-  @use '../scss/header.scss';
+<style lang="scss" scoped>
+  @use '../scss/header.scss' as *;
+
 </style>

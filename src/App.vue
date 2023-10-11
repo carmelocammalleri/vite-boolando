@@ -5,7 +5,8 @@
   
   export default {
   name : 'App',
-  components : { Header,
+  components : { 
+    Header,
     Main,
     Footer 
   }
@@ -19,5 +20,5 @@
 </template>
 
 <style lang="scss">
-  @use './scss/general/general.scss'
+  @use './scss/general/general.scss';
 </style>
